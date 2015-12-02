@@ -1,0 +1,26 @@
+{
+    "name": "astros",
+    "version": "0.0.4",
+    "description": "简洁、高效的前端集成开发环境。",
+    "main": "index.js",
+    "dependencies": {
+        "async": "^1.4.2",
+        "body-parser": "^1.13.3",
+        "crypto": "^0.0.3",
+        "file-plus": "^0.0.2",
+        "lang-utils": "^0.0.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "author": "wheasy",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "none"
+    }
+}
