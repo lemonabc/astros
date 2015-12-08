@@ -8,7 +8,7 @@
         "body-parser": "^1.13.3",
         "crypto": "^0.0.3",
         "file-plus": "^0.0.2",
-        "lang-utils": "^0.0.1"
+        "lang-utils": "^0.0.2"
     },
     "devDependencies": {},
     "scripts": {
