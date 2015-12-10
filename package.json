@@ -1,6 +1,6 @@
 {
     "name": "astros",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "简洁、高效的前端集成开发环境。",
     "main": "index.js",
     "dependencies": {
@@ -8,7 +8,8 @@
         "body-parser": "^1.13.3",
         "crypto": "^0.0.3",
         "file-plus": "^0.0.2",
-        "lang-utils": "^0.0.2"
+        "lang-utils": "^0.0.2",
+        "console-prettify":"^0.0.2"        
     },
     "devDependencies": {},
     "scripts": {
