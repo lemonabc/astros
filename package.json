@@ -19,10 +19,10 @@
     "engines": {
         "node": ">=4.0"
     },
-    "author": "wheasy",
+    "author": "lemonabc <ilemonabc@qq.com>",
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "none"
+        "url": "lemonabc/astros"
     }
 }
