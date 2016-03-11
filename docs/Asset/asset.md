@@ -17,6 +17,10 @@
 ```
 
 ### 属性
+#### asset.status
+发布时，状态值为'release'， 可通过该属性进行一些特殊处理
+
+
 #### asset.modType
 资源类型
 * jsCom|webCom|page|static
