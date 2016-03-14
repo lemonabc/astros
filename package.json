@@ -1,6 +1,6 @@
 {
     "name": "astros",
-    "version": "0.0.14",
+    "version": "0.0.15",
     "description": "简洁、高效的前端集成开发环境。",
     "main": "index.js",
     "dependencies": {
