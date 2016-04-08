@@ -1,2 +1,51 @@
+## 如何开始
 
-详情前往[官网](#)查看
+### 介绍
+
+Astros是一个前端集成开发环境，旨在通过工具自动化完成大部分非思考性的工作，让程序员更能享受编程本身的过程。
+
+Astros的核心，是做为一个前端静态资源服务器，每次请求，都是实时处理并返回。在Astros中，任何资源，如js、css、图片、字体、视频等都是一个`Asset`，收到请求后，一次调用可用的`中间件`完成对Asset的解析、依赖分析、优化等操作，最后返回。
+
+通过Astros目前提供的中间件，已能完成如下功能：
+
+* 自动合并雪碧图
+* 根据SVG，自动合成字体文件
+* 二倍图转一倍图（只需要切2倍图，自动生成1倍图）
+* 自动对图片进行无损压缩，并附加交错属性
+* 解析LESS，自动完善样式HACK（如为`border-radius`添加`-wekit-`等前缀）
+* CSS和JS压缩
+* 支持在浏览器端使用CMD模式
+* HTML自动转JS模板（正常书写HTML，JS中作为变量引用，不必在JS中拼接字符串）
+* 静态资源发布时，支持文件名MD5
+* <del>livereload</del> 开发中
+
+### 安装
+
+#### 安装astros-cli
+
+``` bash
+npm install -g astros-cli
+```
+
+#### 创建项目
+
+``` bash
+astros create ~/astros-example
+```
+或者直接从 github 获取
+
+``` bash
+git clone git@github.com:lemonabc/astros-example.git
+cd astros-example
+npm install
+npm start
+```
+
+默认端口号是Web服务器端口号是3301，静态资源服务端口号是 3300
+
+#### 发布
+在项目根目录下，执行
+
+``` bash
+astros build
+```
