@@ -1,6 +1,6 @@
 {
     "name": "astros",
-    "version": "1.0.0",
+    "version": "1.0.5",
     "description": "简洁、高效的前端集成开发环境。",
     "main": "index.js",
     "dependencies": {
@@ -9,6 +9,7 @@
         "crypto": "^0.0.3",
         "file-plus": "~1.0.0",
         "lang-utils": "~1.0.0",
+        "pandora-astros-map":"~2.0.0",
         "console-prettify":"~1.0.1"
     },
     "devDependencies": {},
