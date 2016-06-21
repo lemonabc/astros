@@ -5,6 +5,7 @@
     "main": "index.js",
     "dependencies": {
         "async": "^1.4.2",
+        "html": "^0.0.10",
         "body-parser": "^1.13.3",
         "crypto": "^0.0.3",
         "file-plus": "~1.0.0",
