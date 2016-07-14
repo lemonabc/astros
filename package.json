@@ -1,29 +1,30 @@
 {
-    "name": "astros",
-    "version": "1.0.10",
-    "description": "简洁、高效的前端集成开发环境。",
-    "main": "index.js",
-    "dependencies": {
-        "async": "^1.4.2",
-        "html": "^0.0.10",
-        "body-parser": "^1.13.3",
-        "crypto": "^0.0.3",
-        "file-plus": "~1.0.0",
-        "lang-utils": "~1.0.0",
-        "pandora-astros-map":"~2.0.0",
-        "console-prettify":"~1.0.1"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "engines": {
-        "node": ">=4.0"
-    },
-    "author": "lemonabc <ilemonabc@qq.com>",
-    "license": "ISC",
-    "repository": {
-        "type": "git",
-        "url": "lemonabc/astros"
-    }
+  "name": "astros",
+  "version": "1.0.10",
+  "description": "简洁、高效的前端集成开发环境。",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.4.2",
+    "body-parser": "^1.13.3",
+    "console-prettify": "~1.0.1",
+    "crypto": "^0.0.3",
+    "file-plus": "~1.0.0",
+    "html": "^0.0.10",
+    "lang-utils": "~1.0.0",
+    "nodegrass": "~0.0.3",
+    "pandora-astros-map": "~2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "author": "lemonabc <ilemonabc@qq.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "lemonabc/astros"
+  }
 }
