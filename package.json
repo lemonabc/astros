@@ -1,6 +1,6 @@
 {
   "name": "astros",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "简洁、高效的前端集成开发环境。",
   "main": "index.js",
   "dependencies": {
@@ -19,7 +19,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": ">=4.0"
+    "node": ">=4.0",
+    "npm" : ">3.0"
   },
   "author": "lemonabc <ilemonabc@qq.com>",
   "license": "ISC",
